@@ -5,6 +5,7 @@ $green: #bae696;
 $dark-pink: #cdbcd0;
 $grey-pink: #ded3d9;
 $grey: #c3c3c3;
+$dark-grey: #636363;
 
 .banner {
     .text-padding {
@@ -17,7 +18,7 @@ $grey: #c3c3c3;
     }
 
     .full-height {
-        height: 120px;
+        height: 160px;
     }
 
     width: 100%;
@@ -29,11 +30,12 @@ $grey: #c3c3c3;
     margin-top: 20px;
     width: 100%;
     height: 700px;
+    
+    font-size: 1.6em;
 }
 
 .text-padding {
     padding: 9px;
-    background-color: red;
 }
 
 .left-column {
@@ -76,7 +78,7 @@ $grey: #c3c3c3;
     }
     
     width: 60%;
-    height: 600px;
+    height: 100%;;
     float: left;
 }
 
@@ -105,7 +107,7 @@ $grey: #c3c3c3;
     }
 
     width: 39%;
-    height: 600px;
+    height: 100%;
     background-color: $scarlet;
     float: left;
 }
@@ -128,4 +130,52 @@ $grey: #c3c3c3;
 
 .rounded-borders {
     border-radius: 6px;
+}
+
+.menu-buttons {
+    margin-left: 15px;
+        
+    .menu-button { 
+       margin-right: 30px; 
+        margin-top: 22px;
+        font-size: 1.5em;
+    }
+}
+
+.menu {
+    height: 80px;
+}
+
+.highlight-button {
+    background-color: $dark-pink;
+}
+
+.regular-button { 
+    background-color: $grey;
+}
+
+.backgroundbody { 
+//    background-color: $gray;
+    background-color: $dark-grey;
+}
+
+.mainbody {
+    min-width: 600px;
+    max-width: 1400px;
+    padding-left: 20px; 
+    padding-right: 20px;
+    padding-top: 10px;
+    background-color: white;
+//    vertical-align: middle;
+    margin: auto;
+//    position: absolute;
+
+}
+
+.float-left { 
+    float: left;
+}
+
+.float-right { 
+    float: right;   
 }

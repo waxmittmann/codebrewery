@@ -1,85 +1,86 @@
-/* line 9, /home/damxam/workspaces/codebrewery/scss/main.scss */
+/* line 10, /home/damxam/workspaces/codebrewery/scss/main.scss */
 .banner {
   width: 100%;
   height: 160px;
   background-color: #4f6396; }
-  /* line 10, /home/damxam/workspaces/codebrewery/scss/main.scss */
+  /* line 11, /home/damxam/workspaces/codebrewery/scss/main.scss */
   .banner .text-padding {
     padding: 20px; }
-  /* line 14, /home/damxam/workspaces/codebrewery/scss/main.scss */
+  /* line 15, /home/damxam/workspaces/codebrewery/scss/main.scss */
   .banner .title {
     color: white;
     font-size: 4em; }
-  /* line 19, /home/damxam/workspaces/codebrewery/scss/main.scss */
+  /* line 20, /home/damxam/workspaces/codebrewery/scss/main.scss */
   .banner .full-height {
-    height: 120px; }
+    height: 160px; }
 
-/* line 28, /home/damxam/workspaces/codebrewery/scss/main.scss */
+/* line 29, /home/damxam/workspaces/codebrewery/scss/main.scss */
 .main-section {
   margin-top: 20px;
   width: 100%;
-  height: 700px; }
+  height: 700px;
+  font-size: 1.6em; }
 
-/* line 34, /home/damxam/workspaces/codebrewery/scss/main.scss */
+/* line 37, /home/damxam/workspaces/codebrewery/scss/main.scss */
 .text-padding {
   padding: 9px; }
 
-/* line 38, /home/damxam/workspaces/codebrewery/scss/main.scss */
+/* line 41, /home/damxam/workspaces/codebrewery/scss/main.scss */
 .left-column {
   width: 60%;
-  height: 600px;
+  height: 100%;
   float: left; }
-  /* line 39, /home/damxam/workspaces/codebrewery/scss/main.scss */
+  /* line 42, /home/damxam/workspaces/codebrewery/scss/main.scss */
   .left-column .divider {
     background-color: transparent;
     height: 10px; }
-  /* line 44, /home/damxam/workspaces/codebrewery/scss/main.scss */
+  /* line 47, /home/damxam/workspaces/codebrewery/scss/main.scss */
   .left-column .left-top {
     height: 45%;
     width: 90%;
     margin: auto; }
-    /* line 45, /home/damxam/workspaces/codebrewery/scss/main.scss */
+    /* line 48, /home/damxam/workspaces/codebrewery/scss/main.scss */
     .left-column .left-top .divider {
       height: 3%; }
-    /* line 49, /home/damxam/workspaces/codebrewery/scss/main.scss */
+    /* line 52, /home/damxam/workspaces/codebrewery/scss/main.scss */
     .left-column .left-top .left-top-left {
       float: left;
       width: 48%;
       left: 0px;
       background-color: #cdbcd0;
       height: 100%; }
-    /* line 57, /home/damxam/workspaces/codebrewery/scss/main.scss */
+    /* line 60, /home/damxam/workspaces/codebrewery/scss/main.scss */
     .left-column .left-top .left-top-right {
       float: left;
       width: 48%;
       background-color: #4f6396;
       height: 100%; }
-  /* line 69, /home/damxam/workspaces/codebrewery/scss/main.scss */
+  /* line 72, /home/damxam/workspaces/codebrewery/scss/main.scss */
   .left-column .left-bottom {
     background-color: #bae696;
     height: 45%;
     width: 90%;
     margin: auto; }
 
-/* line 82, /home/damxam/workspaces/codebrewery/scss/main.scss */
+/* line 85, /home/damxam/workspaces/codebrewery/scss/main.scss */
 .right-column {
   width: 39%;
-  height: 600px;
+  height: 100%;
   background-color: #ba6396;
   float: left; }
-  /* line 83, /home/damxam/workspaces/codebrewery/scss/main.scss */
+  /* line 86, /home/damxam/workspaces/codebrewery/scss/main.scss */
   .right-column .divider {
     height: 3%; }
-  /* line 87, /home/damxam/workspaces/codebrewery/scss/main.scss */
+  /* line 90, /home/damxam/workspaces/codebrewery/scss/main.scss */
   .right-column .right-column-row {
     border: 5px solid #973063;
     border-radius: 9px; }
-  /* line 92, /home/damxam/workspaces/codebrewery/scss/main.scss */
+  /* line 95, /home/damxam/workspaces/codebrewery/scss/main.scss */
   .right-column .right-top {
     height: 35%;
     width: 90%;
     margin: auto; }
-  /* line 98, /home/damxam/workspaces/codebrewery/scss/main.scss */
+  /* line 101, /home/damxam/workspaces/codebrewery/scss/main.scss */
   .right-column .right-bottom {
     height: 55%;
     border: 5px solid #973063;
@@ -87,7 +88,7 @@
     margin: auto;
     width: 90%; }
 
-/* line 113, /home/damxam/workspaces/codebrewery/scss/main.scss */
+/* line 116, /home/damxam/workspaces/codebrewery/scss/main.scss */
 .footer {
   background-color: #4f6396;
   height: 50px;
@@ -95,15 +96,58 @@
   vertical-align: middle;
   line-height: 50px; }
 
-/* line 121, /home/damxam/workspaces/codebrewery/scss/main.scss */
+/* line 124, /home/damxam/workspaces/codebrewery/scss/main.scss */
 .vertical-divider {
   float: left;
   width: 4%;
   height: 100%;
   backgrounc-color: white; }
 
-/* line 128, /home/damxam/workspaces/codebrewery/scss/main.scss */
+/* line 131, /home/damxam/workspaces/codebrewery/scss/main.scss */
 .rounded-borders {
   border-radius: 6px; }
+
+/* line 135, /home/damxam/workspaces/codebrewery/scss/main.scss */
+.menu-buttons {
+  margin-left: 15px; }
+  /* line 138, /home/damxam/workspaces/codebrewery/scss/main.scss */
+  .menu-buttons .menu-button {
+    margin-right: 30px;
+    margin-top: 22px;
+    font-size: 1.5em; }
+
+/* line 145, /home/damxam/workspaces/codebrewery/scss/main.scss */
+.menu {
+  height: 80px; }
+
+/* line 149, /home/damxam/workspaces/codebrewery/scss/main.scss */
+.highlight-button {
+  background-color: #cdbcd0; }
+
+/* line 153, /home/damxam/workspaces/codebrewery/scss/main.scss */
+.regular-button {
+  background-color: #c3c3c3; }
+
+/* line 157, /home/damxam/workspaces/codebrewery/scss/main.scss */
+.backgroundbody {
+  background-color: #636363; }
+
+/* line 162, /home/damxam/workspaces/codebrewery/scss/main.scss */
+.mainbody {
+  min-width: 600px;
+  max-width: 1400px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  background-color: white;
+  margin: auto; }
+
+/* line 175, /home/damxam/workspaces/codebrewery/scss/main.scss */
+.float-left {
+  float: left; }
+
+/* line 179, /home/damxam/workspaces/codebrewery/scss/main.scss */
+.float-right {
+  float: right; }
 
 /*# sourceMappingURL=main.css.map */
